@@ -1,0 +1,167 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        style
+            include ../static/index.css
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1028fe294d.js" crossorigin="anonymous"></script>
+
+    body 
+        nav 
+            .logo
+                img#logoimg(src = '/static/logo.png')
+                #compname CompName
+            .navigate
+                .home
+                    a(href="#home") Home 
+                .course 
+                    a(href="#cources") Cources
+                .faq
+                    a(href="#faq") FAQ
+                .about
+                    a(href="#aboutus") About Us
+                .contacts
+                    a(href="#contacts") Contacts
+                .upcoming
+                    a(href="#upcoming") Upcoming Events
+
+
+                button#login(onclick="document.getElementById('id01').style.display='block'")  Login
+
+        section#home( style='background-image:linear-gradient(#C90B72, #001C74);;background-color:#001C74;background-repeat:no-repeat;background-size:cover') 
+            img.together(src="/static/logo.png", alt="")
+            div.content
+                h1 CompName
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nihil reprehenderit, nemo modi totam earum ipsa incidunt ad inventore explicabo?
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores ratione cumque vero aut illo natus commodi esse, accusamus id! Ex eaque quis voluptatum illo praesentium nesciunt, modi ipsum molestiae dolor earum, possimus in. 
+                | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos nesciunt hic tempore nostrum? Molestiae quisquam temporibus vitae minima inventore expedita consequatur quidem doloribus ducimus reprehenderit quia itaque libero in, labore nobis nostrum? Eveniet, nihil?
+        section#cources(style='background-image:linear-gradient(#C90B72, #001C74);;background-color:#001C74;background-repeat:no-repeat;background-size:cover') 
+            
+            div.content
+                h1 Cources
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nihil reprehenderit, nemo modi totam earum ipsa incidunt ad inventore explicabo?
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores ratione cumque vero aut illo natus commodi esse, accusamus id! Ex eaque quis voluptatum illo praesentium nesciunt, modi ipsum molestiae dolor earum, possimus in. 
+                | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos nesciunt hic tempore nostrum? Molestiae quisquam temporibus vitae minima inventore expedita consequatur quidem doloribus ducimus reprehenderit quia itaque libero in, labore nobis nostrum? Eveniet, nihil?
+            img.together(src="/static/cources.png", alt="")       
+        section#faq(style='background-image:linear-gradient(#C90B72, #001C74);;background-color:#001C74;background-repeat:no-repeat;background-size:cover') 
+            img.together(src="/static/Faq.png", alt="")
+            div.content
+                h1 Frequantly Asked Questions
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nihil reprehenderit, nemo modi totam earum ipsa incidunt ad inventore explicabo?
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores ratione cumque vero aut illo natus commodi esse, accusamus id! Ex eaque quis voluptatum illo praesentium nesciunt, modi ipsum molestiae dolor earum, possimus in. 
+                | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos nesciunt hic tempore nostrum? Molestiae quisquam temporibus vitae minima inventore expedita consequatur quidem doloribus ducimus reprehenderit quia itaque libero in, labore nobis nostrum? Eveniet, nihil?
+        section#aboutus(style='background-image:linear-gradient(#C90B72, #001C74);;background-color:#001C74;background-repeat:no-repeat;background-size:cover') 
+            
+            div.content
+                h1 About Us
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nihil reprehenderit, nemo modi totam earum ipsa incidunt ad inventore explicabo?
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores ratione cumque vero aut illo natus commodi esse, accusamus id! Ex eaque quis voluptatum illo praesentium nesciunt, modi ipsum molestiae dolor earum, possimus in. 
+                | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos nesciunt hic tempore nostrum? Molestiae quisquam temporibus vitae minima inventore expedita consequatur quidem doloribus ducimus reprehenderit quia itaque libero in, labore nobis nostrum? Eveniet, nihil?
+            img.together(src="/static/aboutus.png", alt="")
+        section#contacts(style='background-image:linear-gradient(#C90B72, #001C74);;background-color:#001C74;background-repeat:no-repeat;background-size:cover') 
+            img.together(src="/static/contacts.png", alt="")
+            div.content
+                h1 Contacts
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nihil reprehenderit, nemo modi totam earum ipsa incidunt ad inventore explicabo?
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores ratione cumque vero aut illo natus commodi esse, accusamus id! Ex eaque quis voluptatum illo praesentium nesciunt, modi ipsum molestiae dolor earum, possimus in. 
+                | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos nesciunt hic tempore nostrum? Molestiae quisquam temporibus vitae minima inventore expedita consequatur quidem doloribus ducimus reprehenderit quia itaque libero in, labore nobis nostrum? Eveniet, nihil?
+        section#upcoming(style='background-image:linear-gradient(#C90B72, #001C74);;background-color:#001C74;background-repeat:no-repeat;background-size:cover') 
+            
+            div.content
+                h1 Upcoming Events
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nihil reprehenderit, nemo modi totam earum ipsa incidunt ad inventore explicabo?
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maiores ratione cumque vero aut illo natus commodi esse, accusamus id! Ex eaque quis voluptatum illo praesentium nesciunt, modi ipsum molestiae dolor earum, possimus in. 
+                | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos nesciunt hic tempore nostrum? Molestiae quisquam temporibus vitae minima inventore expedita consequatur quidem doloribus ducimus reprehenderit quia itaque libero in, labore nobis nostrum? Eveniet, nihil?
+            img.together(src="/static/upcoiming.png", alt="")
+        <div id="id01" class="modal">
+            <div class="modal-content animate">
+                    
+                <div class="con">
+                    <!--     Start  header Content  -->
+                    <header class="head-form">
+                        <h2>Log In</h2>
+                        <!--     A welcome message or an explanation of the login form -->
+                        <p>login here using your username and password</p>
+                    </header>
+                    <!--     End  header Content  -->
+                    <br>
+                    <form class="login-form">
+                    
+                        <!--   user name -->
+                        <div id="username">
+                            <span class="input-item">
+                                <i class="fa fa-user-circle"></i>
+                            </span>
+                            <!--   user name Input-->
+                            <input class="form-input" id="txt-input" type="text" placeholder="@UserName" required>
+                        </div>
+                        <br>
+                    
+                        <!--   Password -->
+                        <div id="pwd">
+                            <span class="input-item">
+                                <i class="fa fa-key"></i>
+                            </span>
+                            <!--   Password Input-->
+                            <input class="form-input" type="password" placeholder="Password" id="pwd"  name="password" required>
+                            
+                            <!--      Show/hide password  -->
+                            <span>
+                                <i class="fa fa-eye" aria-hidden="true"  type="button"  id="eye"></i>
+                            </span>
+                        </div>
+                        
+                        <br>
+                        <!--        buttons -->
+                        <!--      button LogIn -->
+                        <button class="log-in-btn"> Log In </button>
+                    </form>
+                
+                    <!--   other buttons -->
+                    <div class="other-btn">
+                        <!--      Forgot Password button-->
+                        <button class="btn submits frgt-pass">Forgot Password</button>
+                        <!--     Sign Up button -->
+                        <button class="btn submits sign-up">Sign Up 
+                        <!--         Sign Up font icon -->
+                        <i class="fa fa-user-plus" aria-hidden="true"></i>
+                        </button>
+                        <!--      End Other the Division -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    script.
+        var modal = document.getElementById('id01');
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+                
+        function show() {
+            var p = document.getElementById('pwd');
+            p.setAttribute('type', 'text');
+        }
+
+        function hide() {
+            var p = document.getElementById('pwd');
+            p.setAttribute('type', 'password');
+        }
+
+        var pwShown = 0;
+
+        document.getElementById("eye").addEventListener("click", function () {
+            if (pwShown == 0) {
+                pwShown = 1;
+                show();
+            } else {
+                pwShown = 0;
+                hide();
+            }
+        }, false);
